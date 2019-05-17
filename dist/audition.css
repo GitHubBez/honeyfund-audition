@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Muli:400,700,900);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -9121,5 +9121,39 @@ a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+}
+
+.tile-1,
+.btn-custom,
+.btn-outline-custom {
+  font-family: "Muli", sans-serif;
+  font-size: 0.9em;
+}
+
+.btn-custom,
+.btn-outline-custom {
+  border: 2px solid transparent;
+  border-color: #6699ff;
+  padding: 1em;
+  font-weight: 700;
+}
+
+.btn-custom {
+  background: #6699ff;
+}
+
+.tile-1 p {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile-1 span {
+  display: inline-block;
+}
+
+.tile-1 b {
+  font-weight: 900;
+  margin-right: 0.3em;
 }
 
